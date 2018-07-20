@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "coveralls": "cat coverage/lcov.info | node_modules/.bin/coveralls"
   },
   "keywords": [
     "webpack",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "babel-jest": "^23.4.0",
     "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.2",
     "jest": "^23.4.1",
     "memory-fs": "^0.4.1",
     "webpack": "^4.16.1"
@@ -43,6 +45,8 @@
     "node": ">=8"
   },
   "jest": {
-    "collectCoverageFrom": ["lib/**/*.js"]
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ]
   }
 }

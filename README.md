@@ -1,7 +1,6 @@
 # i18n properties message loader for webpack
 
 [![Build Status](https://travis-ci.org/liunian/message-loader.svg?branch=master)](https://travis-ci.org/liunian/message-loader)
-
 [![Coverage Status](https://coveralls.io/repos/github/liunian/message-loader/badge.svg?branch=master)](https://coveralls.io/github/liunian/message-loader?branch=master)
 
 When import / require `i18n.properties`, import all other properties files in the same directory, and output as json.
