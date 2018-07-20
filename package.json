@@ -45,6 +45,7 @@
     "node": ">=8"
   },
   "jest": {
+    "testEnvironment": "node",
     "collectCoverageFrom": [
       "lib/**/*.js"
     ]
